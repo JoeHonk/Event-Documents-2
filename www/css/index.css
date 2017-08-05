@@ -172,7 +172,7 @@ h1 {
 }
 
 .text-primary {
-  color: #fff !important;
+  color: #231f20 !important;
 }
 
 .container p {
@@ -282,14 +282,14 @@ button:focus {
 .budbutton {
   font-family: 'BudBold', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
   font-size: 28px;
-  background-color: Transparent;
+  background-color: #231f20;
   background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
   outline: none;
   height: 48px;
   line-height: 30px;
-  border: 2px solid white;
+  border: none;
   display: inline-block;
   float: none;
   text-align: center;
@@ -312,7 +312,7 @@ button:focus {
   font-family: 'BudBold', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
   text-align: center;
   display: inline-block;
-  color: #fff;
+  color: #231f20;
   width: 50%;
   padding: 15px;
 }
@@ -323,9 +323,10 @@ button:focus {
   font-family: 'BudBold', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
   text-align: center;
   display: inline-block;
-  color: #fff;
+  color: #231f20;
   width: 50%;
-  padding: 11px;
+  padding: 9px;
+  text-transform: uppercase;
 }
 
 .menucenter {
@@ -345,14 +346,14 @@ button:focus {
 
 .navred {
   /*background: #a31418;8*/
-    background: #aaaaaa;
-  color: #fff;
+    background: #ffffff;
+  color: #231f20;
 }
 
 .navred a {
   /*background: #a31418;8*/
-    background: #aaaaaa;
-  color: #fff !important;
+    background: #ffffff;
+  color: #231f20 !important;
   font-size: 24px;
   line-height: 24px;
 }
@@ -399,4 +400,22 @@ div.navcontainer{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0.9rem 1rem;
+}
+
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #231f20;
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
